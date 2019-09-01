@@ -1,0 +1,11 @@
+.main-header {
+  background-color: #4a90e2;
+  height: 64px;
+  color: #fff;
+}
+
+.logo {
+  max-height: 24px;
+  margin: 20px 24px;
+  cursor: pointer;
+}

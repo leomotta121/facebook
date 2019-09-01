@@ -1,0 +1,45 @@
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.post {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: solid 0.1px #979797;
+  margin: 25px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header div strong,
+.post-header div small {
+  display: block;
+  margin-left: 10px;
+}
+
+.post-header div strong {
+  cursor: pointer;
+}
+
+.post-header div small {
+  font-size: 12px;
+  color: #999898;
+}
+
+.line-break {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.content {
+  font-size: 14px;
+  color: #3e3e3e;
+  line-height: 22px;
+  border-bottom: 1px solid #eeeeee;
+}
