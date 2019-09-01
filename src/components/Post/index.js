@@ -1,5 +1,7 @@
 import React from "react";
 
+import Comment from "../Comment";
+
 import "./styles.css";
 
 export default function Post({ post }) {
@@ -26,6 +28,10 @@ export default function Post({ post }) {
           </p>
         ))}
       </div>
+
+      {post.comments.map(comment => (
+        <Comment key={comment.id} comment={comment} />
+      ))}
     </div>
   );
 }

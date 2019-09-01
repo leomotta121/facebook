@@ -22,9 +22,19 @@ export default class PostList extends Component {
             author: {
               name: "Diego Fernandes",
               avatar:
-                "https://avatars1.githubusercontent.com/u/36088219?s=460&v=4"
+                "https://avatars1.githubusercontent.com/u/2254731?s=400&v=4"
             },
-            content: "Conteúdo do comentário"
+            content:
+              "Aqui na Rocketseat estamos sempre buscando novos desenvolvedores.\nGeralmente ficamos de olho nos melhores alunos do bootcamp, inclusive 80% do nosso time de devs esta composto por ex alunos do bootcamp."
+          },
+          {
+            id: 3,
+            author: {
+              name: "Diego Fernandes",
+              avatar:
+                "https://avatars3.githubusercontent.com/u/16545335?s=400&v=4"
+            },
+            content: "Manda seu cv pra gente!"
           }
         ]
       },
@@ -43,9 +53,10 @@ export default class PostList extends Component {
             author: {
               name: "Diego Fernandes",
               avatar:
-                "https://avatars1.githubusercontent.com/u/36088219?s=460&v=4"
+                "https://avatars1.githubusercontent.com/u/2254731?s=400&v=4"
             },
-            content: "Conteúdo do comentário"
+            content:
+              "Pessoal, alguém sabe se a Rocketseat está contratando?\nGostaria muito de saber, obrigado!"
           }
         ]
       }
